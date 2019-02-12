@@ -1,4 +1,4 @@
-FROM nvidia/cuda:8.0-cudnn7-devel
+FROM nvidia/cuda:9.2-cudnn7-devel
 MAINTAINER Karen Hambardzumyan <mahnerak@yerevann.com>
 
 RUN apt-get update \
